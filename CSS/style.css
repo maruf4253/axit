@@ -1,0 +1,805 @@
+/*========================
+      Global  Font CSS 
+=========================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*========================
+  `     Global CSS 
+=========================*/
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  }
+
+/*========================
+  navbar section-00 CSS 
+=========================*/
+.navbar .container-fluid{
+  background: #000;
+  border-bottom: 3px solid #fff;
+}
+.navbar-expand-lg .navbar-brand img{
+  margin-left: 50px;
+  width: 55%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #fff;
+  margin-right: 10px;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-right: 77px;
+  font-size: 14px;
+}
+.navbar.navbar-expand-lg {
+  padding: 0;
+}
+/*========================
+  banner section-01 CSS 
+=========================*/
+.banner-section{
+  background: url(../image/axit01.png) no-repeat center top;
+  padding: 80px 0 100px;
+  background-size: cover;
+}
+.banner-section .container{
+
+}
+.banner-section .col-lg-6.col601 {
+  margin-left: 0px;
+}
+.banner-section .col601 h1{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+}
+.banner-section .col601 h1 span{
+  color: #f38537;
+  font-weight: 300;
+}
+.banner-section .col601 h2 {
+  font-size: 32px;
+  color: #fff;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+.banner-section .col601 .line-div{
+  width: 15%;
+  background: #fff;
+  height: .6%;
+  margin-bottom: 20px;
+}
+.banner-section .col601 p{
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.banner-section .col601 a{
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 4px 18px;
+  transition: all 0.3s ease-in-out;
+}
+.banner-section .col601 a:hover{
+  background: #f38537;
+  border: 2px solid #f38537;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.banner-section .col602 form{
+  background: #fff;
+  width: 87%;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+} 
+.banner-section .col602 .pdiv01{
+  background: #f5f5f5;
+}
+.banner-section .col602 .pdiv01 p{
+  color: #333;
+  font-size: 14px;
+  margin-left: 26px;
+  padding: 8px 8px;
+}
+.banner-section .col602 .pdiv01 p span{
+  color: #f38537;
+}
+.banner-section .info-div input {
+  border: none !important;
+  margin-left: 5px;
+  margin-top: 0;
+  width: 108%;
+  margin-bottom: 6px;
+  outline: 0;
+  box-shadow: none;
+}
+.banner-section .info-div {
+  border-bottom: 1px solid #8e8e8e;
+  padding-top: 5px;
+  margin: 25px 0;
+  font-size: 12px;
+  width: 80%;
+  margin-left: 24px;
+
+}
+.banner-section .col602 .diva{
+  background: #000;
+  margin-top: 55px;
+  padding: 8px 0;
+}
+.banner-section .col602 .diva a{
+  text-decoration: none;
+  color: #ccc;
+  margin-left: 86px;
+}
+.banner-section .col602 .diva:hover,
+.banner-section .col602 .diva a:hover{
+  background: #f38537;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+/*========================
+  brandbar section-02 CSS
+=========================*/
+.brandbar-section{
+  background: #fff;
+  border-bottom: 3px solid #b7b7b7;
+}
+.brandbar-section .container .col04{
+
+}
+.brandbar-section  .container .col04 h2{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.brandbar-section  .container .col04 p {
+  margin-left: 0px;
+  font-size: 12px;
+}
+.brandbar-section  .container .col05{
+  margin-top: 18px;
+  font-size: 34px;
+}
+.brandbar-section  .fa.fa-facebook,
+.brandbar-section  .fa-twitter,
+.brandbar-section  .fa-google-plus-g,
+.brandbar-section  .fa-pinterest-p,
+.brandbar-section  .fa-instagram,
+.brandbar-section  .fa-stumbleupon,
+.brandbar-section  .fa-rss{
+  margin-right: 15px;
+  padding-left: 12px;
+  background: #fff;
+  color: #cccccc;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.brandbar-section  .fa.fa-facebook:hover,
+.brandbar-section  .fa-twitter:hover,
+.brandbar-section  .fa-google-plus-g:hover,
+.brandbar-section  .fa-pinterest-p:hover,
+.brandbar-section  .fa-instagram:hover,
+.brandbar-section  .fa-stumbleupon:hover,
+.brandbar-section  .fa-rss:hover{
+  background: #fff;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+/*========================
+features section-A-03 CSS
+=========================*/
+.features-sectiona{
+  background: #f5f5f5;
+  padding: 100px 0 120px;
+}
+.features-sectiona .row {
+  width: 98%;
+}
+.features-sectiona .col101 .tab-div{
+  margin-top: 30px;
+  height: 32%;
+}
+.features-sectiona .col101 .tab-btn{
+  background: #000;
+  border: none;
+  border-radius: 1px;
+  border-bottom: 2px solid #ccc;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ccc;
+  width: 145%;
+  height: 100%;
+}
+.features-sectiona .tab-btn:hover{
+  background: #f38537;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+}
+.features-sectiona .col601 h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.features-sectiona .col601 .p-01{
+  font-size: 12px;
+  padding-top: 30px;
+}
+.features-sectiona .col601 .item02 .p-01{
+  font-size: 12px;
+  padding-top: 15px;
+}
+.features-sectiona .col601 .item02  .p-02{
+  font-size: 12px;
+  padding-top: 30px;
+}
+.features-sectiona .col601 .p-02{
+  font-size: 12px;
+}
+.features-sectiona .col601 .download-btn{
+  margin-top: 50px;
+}
+.features-sectiona .col601 .download-btn a{
+  background: #000;
+  padding: 6px 12px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ccc;
+  transition: all 0.3s ease-in-out;
+}
+.features-sectiona .col601 .download-btn a:hover{
+  background: #f38537;
+  border: 2px solid #ccc;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*========================
+features section-B-04 CSS
+=========================*/
+.features-sectionb{
+  background: #fff;
+  margin-top: px;
+  padding: 60px 0;
+}
+.axit-img03 {
+  width: 100%;
+  margin-top: 35px;
+
+}
+.col502{
+  vertical-align: center;
+}
+.col502 h2{
+  font-size: 20px;
+ 
+  margin-bottom: 18px;
+}
+.col502 .line-div02{
+  width: 15%;
+  background: #f38537;
+  height: .8%;
+  margin-bottom: 20px;
+}
+.col502 .p-00{
+  font-size: 14px;
+}
+.fa.fa-cloud-upload{
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 6px 6px;
+  color: #000;
+  border-radius: 50%;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.fa.fa-cloud-upload:hover{
+  border: 1px solid #f38537;
+  background: #fff;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+.items-col502 span{
+  font-size: 20px;
+}
+.items-col502 .p-01{
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: -57px;
+}
+.fa.fa-cloud-download{
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 6px 6px;
+  color: #000;
+  border-radius: 50%;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.fa.fa-cloud-download:hover{
+  border: 1px solid #f38537;
+  background: #fff;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+.items-col502 .p-02{
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: -57px;
+}
+
+
+/*========================
+ features section-C-05 CSS
+=========================*/
+.features-sectionc{
+  background: #f5f5f5;
+  margin-top: px;
+  padding: 60px 0;
+}
+.col501 h2{
+  margin-bottom: 18px;
+  margin-top: 70px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.col501 .line-div03{
+  width: 15%;
+  background: #f38537;
+  height: .8%;
+  margin-bottom: 20px;
+}
+.col501 .p-01{
+  font-size: 12px;
+}
+.col501 .p-02{
+  font-size: 12px;
+}
+.axit-img04 {
+  width: 100%;
+  margin-top: 35px;
+}
+.features-sectionc .offset-lg-1 {
+  margin-left: 4.3%;
+}
+
+/*========================
+ process section-06 CSS
+=========================*/
+.process-section{
+  background: #fff;
+  padding: 60px 0;
+}
+.process-section .col401{
+  text-align: center;
+}
+.process-section .col401::before{
+  content: "";
+  position: absolute;
+  width: 5%;
+  background: #f38537;
+  padding: 1.1px 0;
+  margin-left: -28px;
+  margin-top: 39px;
+}
+.process-section .offset-lg-4 {
+  margin-left: 31.5%;
+}
+.process-section .col401 h1{
+  font-size: 20px;
+  padding-bottom: 24px;
+}
+.process-section .col401 .p-00{
+  font-size: 11px;
+  color: #000;
+  padding-bottom: 35px;
+}
+.process-section .col04{
+  text-align: center;
+  width: 32%;
+}
+.process-section .featuer-item{
+  text-align: center;
+  display: inline;
+}
+.process-section .fa-lightbulb-o,
+.process-section .fa-bolt{
+  border: 1px solid #9c9696;
+  background: #fff;
+  padding: 5px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin-top: 20px;
+  font-size: 25px;
+  margin-left: 0px;
+  transition: all 0.3s ease-in-out;
+}
+.process-section .fa-lightbulb-o:hover,
+.process-section .fa-bolt:hover{
+  border: 1px solid #f38537;
+  background: #fff;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+.process-section .fa-keyboard-o{
+  border: 1px solid #9c9696;
+  background: #fff;
+  padding: 7px 7px;
+  color: #000;
+  border-radius: 50%;
+  margin-top: 15px;
+  font-size: 25px;
+  margin-left: 0px;
+  transition: all 0.3s ease-in-out;
+}
+.process-section .fa-keyboard-o:hover{
+  border: 1px solid #f38537;
+  background: #fff;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+.process-section .feature-item h3{
+  padding-top: 18px;
+  font-size: 16px;
+  color: #000;
+  margin-left: 0px;
+  padding-bottom: 5px;
+}
+.process-section .keyboard-item h3{
+  padding-top: 18px;
+  font-size: 16px;
+  color: #000;
+  margin-left: 0px;
+  padding-bottom: 5px;
+}
+.process-section .div-p{
+  padding: 0px 5px;
+  text-align: center;
+  background: #fff;
+}
+.process-section .feature-item .p-01{
+  font-size: 11px;
+  color: #000;
+}
+.process-section .keyboard-item .p-01{
+  font-size: 11px;
+  color: #000;
+}
+
+
+/*========================
+ pricing section-07 CSS
+=========================*/
+.pricing-section{
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+.pricing-section::before{
+  content: "";
+  position: absolute;
+  width: 5%;
+  background: #f38537;
+  padding: 1.5px 0;
+  margin-bottom: 15px;
+  margin-left: 495px;
+  margin-top: 38px;
+}
+.pricing-section .col12{
+   text-align: center;
+   margin-left: -11px;
+}
+.pricing-section .col12 h1{
+  font-size: 20px;
+}
+.pricing-section .col12 .p-00{
+  padding-bottom: 80px;
+  font-size: 11px;
+  color: #000;
+}
+.pricing-item img{
+  width: 90%;
+}
+.middle-imgdiv{
+  margin-top: -25px;
+}
+
+
+/*========================
+testimonial section-08 CSS
+=========================*/
+.testimonial-section{
+  background: #fff;
+  padding: 60px 0;
+}
+.testimonial-section::before{
+  content: "";
+  position: absolute;
+  width: 5%;
+  background: #f38537;
+  padding: 1.5px 0;
+  margin-bottom: 15px;
+  margin-left: 495px;
+  margin-top: 38px;
+}
+.testimonial-section .col12{
+  text-align: center;
+ }
+.testimonial-section .col12 h1{
+  font-size: 20px;
+ }
+.testimonial-section .col12 .p-00{
+  padding-bottom: 50px;
+  font-size: 11px;
+  color: #000;
+}
+.testimonial-section .row.row01 {
+  margin-right: 16px;
+}
+.testimonial-section .text-item{
+  position: relative;
+  background: #f5f5f5;
+  width: 90%;
+  height: 58%;
+  z-index: 1;
+}
+.testimonial-section .child-div{
+  position: absolute;
+  background: #f5f5f5;
+  width: 10%;
+  height: 20%;
+  top: 105px;
+  left: 23px;
+  rotate: 45deg;
+  z-index: -1;
+}
+.testimonial-section .text-item p{
+  font-size: 12px;
+  padding-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.testimonial-section .image-item img{
+  margin-bottom: -8px;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 28%;
+}
+.testimonial-section .image-item span{
+  font-size: 16px;
+  font-weight: bold;
+}
+.testimonial-section .image-item .p-01{
+  font-size: 12px;
+  margin-left: 90px;
+  margin-top: -70px;
+}
+
+
+/*========================
+custom section-09 CSS
+=========================*/
+.custom-section{
+  background: url(../image/axit09.png) no-repeat center top;
+  background-size: cover;
+  padding: 80px 0;
+  position: relative;
+}
+.custom-section::before{
+  content: "";
+  position: absolute;
+  width: 5%;
+  background: #fff;
+  padding: 1px 0;
+  margin-bottom: 15px;
+  margin-left: 500px;
+  margin-top: 38px;
+}
+.custom-section .col12{
+  text-align: center;
+  margin-left: -16px;
+ }
+.custom-section .col12 h1{
+  font-size: 20px;
+  color: #fff;
+ }
+.custom-section .col12 .p-00{
+  padding-bottom: 15px;
+  font-size: 11px;
+  color: #fff;
+}
+.custom-section .col12 a{
+  text-decoration: none;
+  padding: 6px 14px;
+  border: 2px solid #ccc;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  margin-left: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.custom-section .col12 a:hover{
+  background: #f38537;
+  border: 2px solid #ccc;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*========================
+contact section-10 CSS
+=========================*/
+.contact-section{
+  position: relative;
+  padding: 80px 0;
+  background: #fff;
+}
+.contact-section::before{
+  content: "";
+  position: absolute;
+  width: 5%;
+  background: #f38537;
+  padding: 1.1px 0;
+  margin-bottom: 15px;
+  margin-left: 508px;
+  margin-top: 38px;
+}
+.contact-section .container{
+  text-align: center;
+}
+.col12 h1 {
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.contact-section .col12 .p-00 {
+  font-size: 12px;
+  color: #000;
+  padding-bottom: 2px;
+}
+.contact-section .contact-form01{
+  display: flex;
+  margin-left: 16px;
+}
+.contact-section .input-field {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section input{
+  margin-top: 30px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  width: 190%;
+  border: 0;
+  border-bottom: 2px solid #d6d6d6;
+  margin-bottom: 6px;
+  outline: 0;
+  box-shadow: none;
+}
+.contact-section .collg-02 {
+  margin-right: 30px;
+}
+.contact-section .contact-form02 {
+  margin-left: 10px;
+}
+.contact-section .msg-field {
+  margin-top: 3px;
+  width: 48.2%;
+  margin-right: 80px;
+  margin-left: 30px;
+}
+.contact-section .msg-field input{
+  padding-bottom: 137px;
+  outline: 0;
+  box-shadow: none;
+} 
+.contact-section .diva{
+  background: #fff;
+  padding: 8px 0;
+  margin-left: -87px;
+  margin-top: 40px;
+}
+.contact-section .diva a{
+  text-decoration: none;
+  margin-left: 80px;
+  padding: 6px 16px;
+  border: 2px solid #ccc;
+  background: #000;
+  color: #cccccc;
+  transition: all 0.3s ease-in-out;
+}
+.contact-section .diva a:hover{
+  border: 2px solid #ccc;
+  background: #f38537;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*========================
+footer section-11 CSS
+=========================*/
+.footer-section{
+  padding: 5px 0;
+  margin: 0;
+  background: #000;
+}
+.footer-section .container{
+  text-align: center;
+}
+.footer-section .container .col12{
+  margin-left: 5px;
+}
+.footer-section .container .col12 p{
+  margin-left: -20px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #fff;
+}
+.footer-section .div-icon{
+ margin-top: 5px;
+}
+.footer-section .div-icon .fa.fa-facebook,
+.footer-section .div-icon .fa-twitter,
+.footer-section .div-icon .fa-google-plus-g,
+.footer-section .div-icon .fa-pinterest-p,
+.footer-section .div-icon .fa-instagram,
+.footer-section .div-icon .fa-stumbleupon,
+.footer-section .div-icon .fa-rss{
+  margin-right: 15px;
+  padding-left: 16px;
+  background: #000;
+  color: #cccccc;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .div-icon .fa.fa-facebook:hover,
+.footer-section .div-icon .fa-twitter:hover,
+.footer-section .div-icon .fa-google-plus-g:hover,
+.footer-section .div-icon .fa-pinterest-p:hover,
+.footer-section .div-icon .fa-instagram:hover,
+.footer-section .div-icon .fa-stumbleupon:hover,
+.footer-section .div-icon .fa-rss:hover{
+  background: #000;
+  color: #f38537;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* //  RESPONSIVE FPR MOBILE // */
+
+
+@media (min-width:320PX) and (max-width:576PX) {
+  .navbar-toggler {
+    background: #fff;
+    width: 10%;
+    padding: 1px 0;
+    height: 64%;
+  }
+  .navbar-expand-lg .navbar-brand img{
+    margin-left: 5px;
+    width: 70%;
+  }
+  .navbar-toggler-icon{
+    background-size: 80%;
+    margin-right: -2px;
+  }
+  .navbar-nav{display: flex;flex-direction: row;}
+  #navbarSupportedContent {
+    margin-left: 12px;
+  }
+  .banner-section{
+    padding: 60px 0px;
+  }
+
+
+}
